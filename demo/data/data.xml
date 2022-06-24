@@ -14,12 +14,12 @@
         <field name="country_id" ref="base.be"></field>
         <field name="city">BORN</field>
         <field name="zip">6121 SH</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/mitsu.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/mitsu.png"/>
     </record>
 
     <record id="Eibert_Lankhorst" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_mitsubishi"></field>
+        <field name="parent_id" ref="demo.company_mitsubishi"></field>
         <field name="name">Eibert Lankhorst</field>
         <field name="mobile">06-96527510</field>
         <field name="email">EibertLankhorst@dayrep.com</field>
@@ -28,13 +28,13 @@
         <field name="country_id" ref="base.be"></field>
         <field name="city">Zuidschote</field>
         <field name="zip">4273 SP</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/eibert.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/eibert.png"/>
     </record>
 
 
     <record id="Jelte_Vreugdenhil" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_mitsubishi"></field>
+        <field name="parent_id" ref="demo.company_mitsubishi"></field>
         <field name="name">Jelte Vreugdenhil</field>
         <field name="function">Executive editor</field>
         <field name="mobile"></field>
@@ -44,7 +44,7 @@
         <field name="country_id" ref="base.be"></field>
         <field name="city">Namur</field>
         <field name="zip">6561 KE</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/jelte.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/jelte.png"/>
     </record>
 
 
@@ -63,14 +63,14 @@
         <field name="state_id" ref="base.state_nl_ut"></field>
         <field name="city">AMSTELVEEN</field>
         <field name="zip">1185XE</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/tech_unie.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/tech_unie.png"/>
     </record>
 
 
     <!-- TECHNISCHE UNIE -->
     <record id="Okko_Boekhorst" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_technische_unie"></field>
+        <field name="parent_id" ref="demo.company_technische_unie"></field>
         <field name="name">Okko Boekhorst</field>
         <field name="mobile">0324 1814257</field>
         <field name="email">OkkoBoekhorst@rhyta.com</field>
@@ -80,13 +80,13 @@
         <field name="country_id" ref="base.it"></field>
         <field name="city">Arsago Seprio</field>
         <field name="zip">21010</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/okko.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/okko.png"/>
     </record>
 
 
     <record id="Anastacia_Steentjes" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_technische_unie"></field>
+        <field name="parent_id" ref="demo.company_technische_unie"></field>
         <field name="name">Anastacia Steentjes</field>
         <field name="function">Telecommunicatie specialist</field>
         <field name="mobile">0372 6524957</field>
@@ -97,7 +97,7 @@
         <field name="country_id" ref="base.it"></field>
         <field name="city">San Cassiano</field>
         <field name="zip">39030</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/anastacia.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/anastacia.png"/>
     </record>
 
     <!-- LG -->
@@ -116,12 +116,12 @@
         <field name="state_id" ref="base.state_nl_ut"></field>
         <field name="city">EERSEL</field>
         <field name="zip">5521 BD</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/lg.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/lg.png"/>
     </record>
 
     <record id="Xanthe_van_der_Hijden" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_lg"></field>
+        <field name="parent_id" ref="demo.company_lg"></field>
         <field name="name">Xanthe van der Hijden</field>
         <field name="function">Statistisch medewerker</field>
         <field name="mobile">05.40.38.21.82</field>
@@ -131,12 +131,12 @@
         <field name="country_id" ref="base.fr"></field>
         <field name="city">Saint-mÉdard-en-jalles</field>
         <field name="zip">Arnhem</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/xanthe.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/xanthe.png"/>
     </record>
 
      <record id="Michell_Spoelder" model="res.partner">
         <field name="company_type">person</field>
-         <field name="parent_id" ref="DemoVersie.company_lg"></field>
+         <field name="parent_id" ref="demo.company_lg"></field>
         <field name="name">Michell Spoelder</field>
         <field name="function">Costume designer</field>
         <field name="mobile">02.10.26.80.11</field>
@@ -146,7 +146,7 @@
         <field name="country_id" ref="base.fr"></field>
         <field name="city">Saint-joseph</field>
         <field name="zip">97480</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/michell.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/michell.png"/>
     </record>
 
     <record id="Amber_Pero" model="res.partner">
@@ -161,7 +161,7 @@
         <field name="title">1</field>
         <field name="country_id">10</field>
         <field name="city">Córdoba</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/xanthe.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/xanthe.png"/>
     </record>
 
 
@@ -181,12 +181,12 @@
         <field name="state_id" ref="base.state_nl_ut"></field>
         <field name="city">Nederhorst den Berg</field>
         <field name="zip">1394 PC</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/inkt.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/inkt.png"/>
     </record>
 
     <record id="Shah_Bouwman" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_123_INKT"></field>
+        <field name="parent_id" ref="demo.company_123_INKT"></field>
         <field name="name">Shah Bouwman</field>
         <field name="mobile">06-99387543</field>
         <field name="email">ShahBouwman@rhyta.com</field>
@@ -196,13 +196,13 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Maastricht</field>
         <field name="zip">6217 NP</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/shah.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/shah.png"/>
     </record>
 
 
     <record id="Vivian_Schinkel" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_123_INKT"></field>
+        <field name="parent_id" ref="demo.company_123_INKT"></field>
         <field name="name">Vivian Schinkel</field>
         <field name="mobile">06-52358845</field>
         <field name="email">VivianSchinkel@dayrep.com</field>
@@ -212,13 +212,13 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Hilversum</field>
         <field name="zip">1223 JD</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/vivian.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/vivian.png"/>
     </record>
 
 
     <record id="Engelbertus_Sebregts" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_123_INKT"></field>
+        <field name="parent_id" ref="demo.company_123_INKT"></field>
         <field name="name">Engelbertus Sebregts</field>
         <field name="mobile">06-90776500</field>
         <field name="email">EngelbertusSebregts@teleworm.us</field>
@@ -228,7 +228,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Hilversum</field>
         <field name="zip">1217 SB</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/engelbertus.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/engelbertus.png"/>
     </record>
 
 
@@ -245,7 +245,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Geleen</field>
         <field name="zip">6165 TK</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/bente.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/bente.png"/>
     </record>
 
 
@@ -262,7 +262,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Dordrecht</field>
         <field name="zip">3311 ZJ</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/fadil.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/fadil.png"/>
     </record>
 
 
@@ -279,7 +279,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Noordwijk</field>
         <field name="zip">2202 GW</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/jaro.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/jaro.png"/>
     </record>
 
 
@@ -299,7 +299,7 @@
         <field name="state_id" ref="base.state_nl_ut"></field>
         <field name="city">Utrecht</field>
         <field name="zip">3528 BJ</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/bol.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/bol.png"/>
 
     </record>
 
@@ -308,7 +308,7 @@
 
     <record id="Maryse_Doris" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_bol_com"></field>
+        <field name="parent_id" ref="demo.company_bol_com"></field>
         <field name="name">Maryse Doris</field>
         <field name="function">Sales Director</field>
         <field name="email">maryse@gmail.com</field>
@@ -319,13 +319,13 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Bussum</field>
         <field name="zip">1401 AX</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/maryse.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/maryse.png"/>
     </record>
 
 
     <record id="Marceline_Snelders" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_bol_com"></field>
+        <field name="parent_id" ref="demo.company_bol_com"></field>
         <field name="name">Marceline Snelders</field>
         <field name="function">Circulatie assistent</field>
         <field name="mobile">06-84443117</field>
@@ -337,13 +337,13 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Barendrecht</field>
         <field name="zip">2993 GN</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/marceline.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/marceline.png"/>
     </record>
 
 
     <record id="Silvy_Lugtenburg" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_bol_com"></field>
+        <field name="parent_id" ref="demo.company_bol_com"></field>
         <field name="name">Silvy Lugtenburg</field>
         <field name="function">Waterspreeuw</field>
         <field name="mobile">06-23670923</field>
@@ -355,7 +355,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Driebergen-Rijsenburg</field>
         <field name="zip">3971 XK</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/silvy.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/silvy.png"/>
     </record>
 
 
@@ -375,7 +375,7 @@
         <field name="state_id" ref="base.state_nl_nh"></field>
         <field name="city">Amsterdam</field>
         <field name="zip">2522 WP</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/amazon.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/amazon.png"/>
     </record>
 
 
@@ -383,7 +383,7 @@
 
     <record id="Tolunay_Murk" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_amazon"></field>
+        <field name="parent_id" ref="demo.company_amazon"></field>
         <field name="name">Tolunay Murk</field>
         <field name="function">Bediener werktuigmachine</field>
         <field name="mobile">06-96451494</field>
@@ -395,13 +395,13 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Maastricht</field>
         <field name="zip">6226 XL</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/tolunay.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/tolunay.png"/>
     </record>
 
 
     <record id="Silver_Stoops" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_amazon"></field>
+        <field name="parent_id" ref="demo.company_amazon"></field>
         <field name="name">Silver Stoops</field>
         <field name="function">Gaming veranderen persoon</field>
         <field name="mobile">06-90891736</field>
@@ -413,13 +413,13 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Vught</field>
         <field name="zip">5262 TS</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/silver.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/silver.png"/>
     </record>
 
 
     <record id="Aron_Koops" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_amazon"></field>
+        <field name="parent_id" ref="demo.company_amazon"></field>
         <field name="name">Aron Koops</field>
         <field name="function">Ondertiteling uitzenden</field>
         <field name="mobile">06-49038462</field>
@@ -431,7 +431,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Breda</field>
         <field name="zip">4814 NL</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/aron.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/aron.png"/>
     </record>
 
 
@@ -451,7 +451,7 @@
         <field name="state_id" ref="base.state_nl_ut"></field>
         <field name="city">Hengelo</field>
         <field name="zip"> 7554 TA</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/teham.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/teham.png"/>
     </record>
 
 
@@ -459,7 +459,7 @@
 
     <record id="Jeska_Ibrahim" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_teham_pongers"></field>
+        <field name="parent_id" ref="demo.company_teham_pongers"></field>
         <field name="name">Jeska Ibrahim</field>
         <field name="function">Begeleidingsconsulent</field>
         <field name="mobile">06-33918459</field>
@@ -471,13 +471,13 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Deventer</field>
         <field name="zip">7422 RD</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/jeska.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/jeska.png"/>
     </record>
 
 
     <record id="Nasser_Stokkel" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_teham_pongers"></field>
+        <field name="parent_id" ref="demo.company_teham_pongers"></field>
         <field name="name">Nasser Stokkel</field>
         <field name="function">Charter buschauffeur</field>
         <field name="mobile">06-61406495</field>
@@ -489,13 +489,13 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Amsterdam</field>
         <field name="zip">1019 MD</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/nasser.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/nasser.png"/>
     </record>
 
 
     <record id="Noemi_Wemmers" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_teham_pongers"></field>
+        <field name="parent_id" ref="demo.company_teham_pongers"></field>
         <field name="name">Noemi Wemmers</field>
         <field name="function">Archeoloog</field>
         <field name="mobile">06-99236479</field>
@@ -507,13 +507,13 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Beilen</field>
         <field name="zip">9411 LR</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/noemi.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/noemi.png"/>
     </record>
 
 
     <record id="Maas_Mulderij" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_teham_pongers"></field>
+        <field name="parent_id" ref="demo.company_teham_pongers"></field>
         <field name="name">Maas Mulderij</field>
         <field name="function">Elektronische nieuwsgaring operator</field>
         <field name="mobile">06-78282482</field>
@@ -525,7 +525,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Haaren</field>
         <field name="zip">5076 EV</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/maas.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/maas.png"/>
     </record>
 
 
@@ -545,14 +545,14 @@
         <field name="state_id" ref="base.state_nl_nh"></field>
         <field name="city">Kerkrade</field>
         <field name="zip">6468 ES</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/allekabel.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/allekabel.png"/>
     </record>
 
     <!-- Artistic Constructions -->
 
     <record id="Teodora_Rutjens" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_alle_kabels"></field>
+        <field name="parent_id" ref="demo.company_alle_kabels"></field>
         <field name="name">Teodora Rutjens</field>
         <field name="function">Muziekontwerper</field>
         <field name="mobile">06-19386309</field>
@@ -564,13 +564,13 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Helmond</field>
         <field name="zip">5708 KP</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/teodora.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/teodora.png"/>
     </record>
 
 
     <record id="Jocelyne_Bloemers" model="res.partner">
         <field name="company_type">person</field>
-        <field name="parent_id" ref="DemoVersie.company_alle_kabels"></field>
+        <field name="parent_id" ref="demo.company_alle_kabels"></field>
         <field name="name">Jocelyne Bloemers</field>
         <field name="function">Analytical chemist</field>
         <field name="mobile">06-32868641</field>
@@ -582,7 +582,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Capelle aan den IJsse</field>
         <field name="zip">2902 JN</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/jocelyne.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/jocelyne.png"/>
     </record>
 
 
@@ -603,7 +603,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Breda</field>
         <field name="zip">4837 AM</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/chantal.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/chantal.png"/>
     </record>
 
 
@@ -620,7 +620,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Ridderkerk</field>
         <field name="zip">2986 VG</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/gerard.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/gerard.png"/>
     </record>
 
 
@@ -637,7 +637,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Deventer</field>
         <field name="zip">7412 WX</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/hans.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/hans.png"/>
     </record>
 
     <record id="test_user_gordon_heuckeroth" model="res.users">
@@ -653,7 +653,7 @@
         <field name="country_id" ref="base.nl"></field>
         <field name="city">Rotterdam</field>
         <field name="zip">3072 HG</field>
-        <field name="image_1920" type="base64" file="./DemoVersie/static/description/gordong.png"/>
+        <field name="image_1920" type="base64" file="/demo/static/description/gordong.png"/>
 
     </record>
 

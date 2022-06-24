@@ -3,13 +3,13 @@
 
 
 {
-    'name': 'DemoVersie',
+    'name': 'demo',
     'version': '1.0.0',
     'category': 'Demo',
     'author': 'Aardug',
     'sequence': -100,
     'summary': ' management system',
-    'description': """Odoo DemoVersie""",
+    'description': """Odoo demo""",
     'depends': ['mail', 'product', 'sale', 'sales_team', 'contacts', 'mrp', 'account', 'base_iban', 'base_vat',
                 'base_address_extended',
                 'l10n_nl',
@@ -30,7 +30,6 @@
         'data/data.xml',
         'data/data_products.xml',
         'data/data_bills.xml',
-        ''
     ],
     'demo': [],
     'application': True,
