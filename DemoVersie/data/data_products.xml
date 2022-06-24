@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
+
+        <record id="new_productie_category" model="product.category">
+            <field name="name">Kantoor artikelen</field>
+            <field name="parent_id" ref="product.product_category_all"/>
+        </record>
+
+        <record id="new_onderdelen_category" model="product.category">
+            <field name="name">Onderdelen</field>
+            <field name="parent_id" ref="product.product_category_all"/>
+        </record>
+
         <!-- NEEDED -->
         <record id="test_product_ronde_tafel" model="product.product">
-            <field name="name">Ronde  Tafel</field>
+            <field name="name">Ronde Tafel</field>
             <field name="purchase_ok" eval="False" />
             <field name="detailed_type">product</field>
             <field name="categ_id" ref="new_productie_category"/>
@@ -56,15 +67,7 @@
 
 
 
-        <record id="new_productie_category" model="product.category">
-            <field name="name">Kantoor artikelen</field>
-            <field name="parent_id" ref="product.product_category_all"/>
-        </record>
 
-        <record id="new_onderdelen_category" model="product.category">
-            <field name="name">Onderdelen</field>
-            <field name="parent_id" ref="product.product_category_all"/>
-        </record>
 
 
         <record id="base.lang_nl" model="res.lang">
