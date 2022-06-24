@@ -30,6 +30,7 @@
         'data/data.xml',
         'data/data_products.xml',
         'data/data_bills.xml',
+        ''
     ],
     'demo': [],
     'application': True,
