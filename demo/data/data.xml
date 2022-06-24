@@ -10,7 +10,7 @@
         <field name="website">www.mitsubishi-motors.nl</field>
         <field name="l10n_nl_kvk">34081607</field>
         <field name="vat">NL802138937B01</field>
-        <field name="property_account_position_id" ref="l10n_nl.fiscal_position_template_national"></field>
+        <!-- <field name="property_account_position_id" ref="l10n_nl.fiscal_position_template_national"></field> -->
         <field name="country_id" ref="base.be"></field>
         <field name="city">BORN</field>
         <field name="zip">6121 SH</field>
