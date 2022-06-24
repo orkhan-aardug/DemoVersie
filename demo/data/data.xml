@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-
+     <!-- MITSUBISHI -->
+    <record id="company_mitsubishi" model="res.partner">
+        <field name="company_type">company</field>
+        <field name="name">Mitsubishi</field>
+        <field name="email">mitsubishi@aardug.eu</field>
+        <field name="street">Mitsubishi Avenue 21</field>
+        <field name="website">www.mitsubishi-motors.nl</field>
+        <field name="l10n_nl_kvk">34081607</field>
+        <field name="vat">NL802138937B01</field>
+        <field name="property_account_position_id" ref="l10n_nl.fiscal_postion_template_national"></field>
+        <field name="country_id" ref="base.be"></field>
+        <field name="state_id" ref="base.state_nl_nb"/>
+        <field name="city">BORN</field>
+        <field name="zip">6121 SH</field>
+        <field name="image_1920" type="base64" file="/demo/static/description/mitsu.png"/>
+    </record>
 
     <record id="Eibert_Lankhorst" model="res.partner">
         <field name="company_type">person</field>
@@ -51,22 +66,7 @@
         <field name="image_1920" type="base64" file="/demo/static/description/tech_unie.png"/>
     </record>
 
-    <!-- MITSUBISHI -->
-    <record id="company_mitsubishi" model="res.partner">
-        <field name="company_type">company</field>
-        <field name="name">Mitsubishi</field>
-        <field name="email">mitsubishi@aardug.eu</field>
-        <field name="street">Mitsubishi Avenue 21</field>
-        <field name="website">www.mitsubishi-motors.nl</field>
-        <field name="l10n_nl_kvk">34081607</field>
-        <field name="vat">NL802138937B01</field>
-        <field name="property_account_position_id" ref="l10n_nl.fiscal_position_template_national"></field>
-        <field name="country_id" ref="base.be"></field>
-        <field name="state_id" ref="base.state_nl_ut"/>
-        <field name="city">BORN</field>
-        <field name="zip">6121 SH</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/mitsu.png"/>
-    </record>
+
 
     <!-- TECHNISCHE UNIE -->
     <record id="Okko_Boekhorst" model="res.partner">
