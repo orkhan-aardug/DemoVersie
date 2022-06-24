@@ -1,52 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-     <!-- MITSUBISHI -->
-    <record id="company_mitsubishi" model="res.partner">
-        <field name="company_type">company</field>
-        <field name="name">Mitsubishi</field>
-        <field name="email">mitsubishi@aardug.eu</field>
-        <field name="street">Mitsubishi Avenue 21</field>
-        <field name="website">www.mitsubishi-motors.nl</field>
-        <field name="l10n_nl_kvk">34081607</field>
-        <field name="vat">NL802138937B01</field>
-        <field name="property_account_position_id" ref="l10n_nl.fiscal_postion_template_national"></field>
-        <field name="country_id" ref="base.be"></field>
-        <field name="state_id" ref="base.state_nl_nb"/>
-        <field name="city">BORN</field>
-        <field name="zip">6121 SH</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/mitsu.png"/>
-    </record>
-
-    <record id="Eibert_Lankhorst" model="res.partner">
-        <field name="company_type">person</field>
-        <field name="parent_id" ref="demo.company_mitsubishi"></field>
-        <field name="name">Eibert Lankhorst</field>
-        <field name="mobile">06-96527510</field>
-        <field name="email">EibertLankhorst@dayrep.com</field>
-        <field name="street">Broek 12</field>
-        <field name="title" ref="base.res_partner_title_mister"></field>
-        <field name="country_id" ref="base.be"></field>
-        <field name="city">Zuidschote</field>
-        <field name="zip">4273 SP</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/eibert.png"/>
-    </record>
-
-
-    <record id="Jelte_Vreugdenhil" model="res.partner">
-        <field name="company_type">person</field>
-        <field name="parent_id" ref="demo.company_mitsubishi"></field>
-        <field name="name">Jelte Vreugdenhil</field>
-        <field name="function">Executive editor</field>
-        <field name="mobile"></field>
-        <field name="email">JelteVreugdenhil@dayrep.com</field>
-        <field name="street">Van 's-Gravesandestraat 13</field>
-        <field name="title" ref="base.res_partner_title_mister"></field>
-        <field name="country_id" ref="base.be"></field>
-        <field name="city">Namur</field>
-        <field name="zip">6561 KE</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/jelte.png"/>
-    </record>
-
 
     <!--                                      TECHNISCHE UNIE                                         -->
     <record id="company_technische_unie" model="res.partner">
