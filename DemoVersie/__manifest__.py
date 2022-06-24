@@ -6,7 +6,7 @@
     'name': 'DemoVersie',
     'version': '1.0.0',
     'category': 'Demo',
-    'author': 'Odoo mates',
+    'author': 'Aardug',
     'sequence': -100,
     'summary': ' management system',
     'description': """Odoo DemoVersie""",
