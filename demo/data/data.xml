@@ -149,7 +149,7 @@
         <field name="zip">97480</field>
         <field name="image_1920" type="base64" file="/demo/static/description/michell.png"/>
     </record>
-
+    <!--
     <record id="Amber_Pero" model="res.partner">
         <field name="company_type">person</field>
         <field name="name">Amber Pero</field>
@@ -164,6 +164,7 @@
         <field name="city">Córdoba</field>
         <field name="image_1920" type="base64" file="/demo/static/description/xanthe.png"/>
     </record>
+    -->
 
 
 
