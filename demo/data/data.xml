@@ -9,7 +9,7 @@
         <field name="website">www.mitsubishi-motors.nl</field>
         <field name="l10n_nl_kvk">34081607</field>
         <field name="vat">NL802138937B01</field>
-
+        <field name="property_account_position_id" ref="l10n_nl.fiscal_postion_template_national"/>
         <field name="country_id" ref="base.be"/>
         <field name="state_id" ref="base.state_nl_nb"/>
         <field name="city">BORN</field>
@@ -58,7 +58,7 @@
         <field name="website">www.technischeunie.nl</field>
         <field name="l10n_nl_kvk">33235014</field>
         <field name="vat">NL004502863B01</field>
-
+        <field name="property_account_position_id" ref="l10n_nl.fiscal_position_template_national"/>
         <field name="country_id" ref="base.nl"/>
         <field name="state_id" ref="base.state_nl_ut"/>
         <field name="city">AMSTELVEEN</field>
@@ -112,7 +112,7 @@
         <field name="website">www.lg.com/nl</field>
         <field name="l10n_nl_kvk">76697096</field>
         <field name="vat">NL123456782B90</field>
-
+        <field name="property_account_position_id" ref="l10n_nl.fiscal_position_template_national"/>
         <field name="country_id" ref="base.nl"/>
         <field name="state_id" ref="base.state_nl_ut"/>
         <field name="city">EERSEL</field>
@@ -177,7 +177,7 @@
         <field name="website">www.123inkt.nl</field>
         <field name="l10n_nl_kvk">33267823</field>
         <field name="vat">NL804292504B01</field>
-
+        <field name="property_account_position_id" ref="l10n_nl.fiscal_position_template_national"/>
         <field name="country_id" ref="base.nl"/>
         <field name="state_id" ref="base.state_nl_ut"/>
         <field name="city">Nederhorst den Berg</field>
@@ -295,7 +295,7 @@
         <field name="website">www.bol.com</field>
         <field name="l10n_nl_kvk">32147382</field>
         <field name="vat">NL 820471616B01</field>
-
+        <field name="property_account_position_id" ref="l10n_nl.fiscal_position_template_national"/>
         <field name="country_id" ref="base.nl"/>
         <field name="state_id" ref="base.state_nl_ut"/>
         <field name="city">Utrecht</field>
@@ -371,7 +371,7 @@
         <field name="website">www.amazon.nl</field>
         <field name="l10n_nl_kvk">74430661</field>
         <field name="vat">NL815158464B01</field>
-
+        <field name="property_account_position_id" ref="l10n_nl.fiscal_position_template_national"/>
         <field name="country_id" ref="base.nl"/>
         <field name="state_id" ref="base.state_nl_nh"/>
         <field name="city">Amsterdam</field>
@@ -447,7 +447,7 @@
         <field name="website">www.teham-pongers.nl</field>
         <field name="l10n_nl_kvk">6030847</field>
         <field name="vat">NL001262142B01</field>
-
+        <field name="property_account_position_id" ref="l10n_nl.fiscal_position_template_national"/>
         <field name="country_id" ref="base.nl"/>
         <field name="state_id" ref="base.state_nl_ut"/>
         <field name="city">Hengelo</field>
@@ -541,7 +541,7 @@
         <field name="website">www.allekabels.nl</field>
         <field name="l10n_nl_kvk">14123564</field>
         <field name="vat">NL821473013B01</field>
-
+        <field name="property_account_position_id" ref="l10n_nl.fiscal_position_template_national"/>
         <field name="country_id" ref="base.nl"/>
         <field name="state_id" ref="base.state_nl_nh"/>
         <field name="city">Kerkrade</field>
