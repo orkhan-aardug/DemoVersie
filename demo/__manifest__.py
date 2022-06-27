@@ -26,7 +26,7 @@
         'data/data.xml',
     ],
     'demo': [],
-    'application': True,
+    'application': False,
     'auto_install': False,
     'assets': {},
     'license': 'LGPL-3',
