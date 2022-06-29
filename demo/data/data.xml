@@ -14,7 +14,7 @@
         <field name="state_id" ref="base.state_nl_nb"/>
         <field name="city">BORN</field>
         <field name="zip">6121 SH</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/mitsu.png"/>
+        <field name="image_1920" type="base64" file="../demo/static/description/mitsu.png"/>
     </record>
 
     <record id="Eibert_Lankhorst" model="res.partner">
@@ -28,7 +28,7 @@
         <field name="country_id" ref="base.be"/>
         <field name="city">Zuidschote</field>
         <field name="zip">4273 SP</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/eibert.png"/>
+        <field name="image_1920" type="base64" file="../demo/static/description/eibert.png"/>
     </record>
 
 
@@ -44,7 +44,7 @@
         <field name="country_id" ref="base.be"/>
         <field name="city">Namur</field>
         <field name="zip">6561 KE</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/jelte.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/jelte.png"/>
     </record>
 
 
@@ -63,7 +63,7 @@
         <field name="state_id" ref="base.state_nl_ut"/>
         <field name="city">AMSTELVEEN</field>
         <field name="zip">1185XE</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/tech_unie.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/tech_unie.png"/>
     </record>
 
 
@@ -81,7 +81,7 @@
         <field name="country_id" ref="base.it"/>
         <field name="city">Arsago Seprio</field>
         <field name="zip">21010</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/okko.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/okko.png"/>
     </record>
 
 
@@ -98,7 +98,7 @@
         <field name="country_id" ref="base.it"/>
         <field name="city">San Cassiano</field>
         <field name="zip">39030</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/anastacia.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/anastacia.png"/>
     </record>
 
     <!-- LG -->
@@ -117,7 +117,7 @@
         <field name="state_id" ref="base.state_nl_ut"/>
         <field name="city">EERSEL</field>
         <field name="zip">5521 BD</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/lg.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/lg.png"/>
     </record>
 
     <record id="Xanthe_van_der_Hijden" model="res.partner">
@@ -132,7 +132,7 @@
         <field name="country_id" ref="base.fr"/>
         <field name="city">Saint-mÉdard-en-jalles</field>
         <field name="zip">Arnhem</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/xanthe.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/xanthe.png"/>
     </record>
 
      <record id="Michell_Spoelder" model="res.partner">
@@ -147,7 +147,7 @@
         <field name="country_id" ref="base.fr"/>
         <field name="city">Saint-joseph</field>
         <field name="zip">97480</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/michell.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/michell.png"/>
     </record>
 
 
@@ -167,7 +167,7 @@
         <field name="state_id" ref="base.state_nl_ut"/>
         <field name="city">Nederhorst den Berg</field>
         <field name="zip">1394 PC</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/inkt.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/inkt.png"/>
     </record>
 
     <record id="Shah_Bouwman" model="res.partner">
@@ -182,7 +182,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Maastricht</field>
         <field name="zip">6217 NP</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/shah.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/shah.png"/>
     </record>
 
 
@@ -198,7 +198,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Hilversum</field>
         <field name="zip">1223 JD</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/vivian.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/vivian.png"/>
     </record>
 
 
@@ -214,7 +214,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Hilversum</field>
         <field name="zip">1217 SB</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/engelbertus.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/engelbertus.png"/>
     </record>
 
 
@@ -231,7 +231,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Geleen</field>
         <field name="zip">6165 TK</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/bente.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/bente.png"/>
     </record>
 
 
@@ -248,7 +248,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Dordrecht</field>
         <field name="zip">3311 ZJ</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/fadil.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/fadil.png"/>
     </record>
 
 
@@ -265,7 +265,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Noordwijk</field>
         <field name="zip">2202 GW</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/jaro.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/jaro.png"/>
     </record>
 
 
@@ -285,7 +285,7 @@
         <field name="state_id" ref="base.state_nl_ut"/>
         <field name="city">Utrecht</field>
         <field name="zip">3528 BJ</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/bol.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/bol.png"/>
 
     </record>
 
@@ -305,7 +305,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Bussum</field>
         <field name="zip">1401 AX</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/maryse.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/maryse.png"/>
     </record>
 
 
@@ -323,7 +323,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Barendrecht</field>
         <field name="zip">2993 GN</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/marceline.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/marceline.png"/>
     </record>
 
 
@@ -341,7 +341,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Driebergen-Rijsenburg</field>
         <field name="zip">3971 XK</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/silvy.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/silvy.png"/>
     </record>
 
 
@@ -361,7 +361,7 @@
         <field name="state_id" ref="base.state_nl_nh"/>
         <field name="city">Amsterdam</field>
         <field name="zip">2522 WP</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/amazon.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/amazon.png"/>
     </record>
 
 
@@ -381,7 +381,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Maastricht</field>
         <field name="zip">6226 XL</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/tolunay.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/tolunay.png"/>
     </record>
 
 
@@ -399,7 +399,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Vught</field>
         <field name="zip">5262 TS</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/silver.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/silver.png"/>
     </record>
 
 
@@ -417,7 +417,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Breda</field>
         <field name="zip">4814 NL</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/aron.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/aron.png"/>
     </record>
 
 
@@ -437,7 +437,7 @@
         <field name="state_id" ref="base.state_nl_ut"/>
         <field name="city">Hengelo</field>
         <field name="zip"> 7554 TA</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/teham.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/teham.png"/>
     </record>
 
 
@@ -457,7 +457,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Deventer</field>
         <field name="zip">7422 RD</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/jeska.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/jeska.png"/>
     </record>
 
 
@@ -475,7 +475,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Amsterdam</field>
         <field name="zip">1019 MD</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/nasser.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/nasser.png"/>
     </record>
 
 
@@ -493,7 +493,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Beilen</field>
         <field name="zip">9411 LR</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/noemi.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/noemi.png"/>
     </record>
 
 
@@ -511,7 +511,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Haaren</field>
         <field name="zip">5076 EV</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/maas.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/maas.png"/>
     </record>
 
 
@@ -531,7 +531,7 @@
         <field name="state_id" ref="base.state_nl_nh"/>
         <field name="city">Kerkrade</field>
         <field name="zip">6468 ES</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/allekabel.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/allekabel.png"/>
     </record>
 
     <!-- Artistic Constructions -->
@@ -550,7 +550,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Helmond</field>
         <field name="zip">5708 KP</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/teodora.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/teodora.png"/>
     </record>
 
 
@@ -568,7 +568,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Capelle aan den IJsse</field>
         <field name="zip">2902 JN</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/jocelyne.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/jocelyne.png"/>
     </record>
 
 
@@ -589,7 +589,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Breda</field>
         <field name="zip">4837 AM</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/chantal.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/chantal.png"/>
     </record>
 
 
@@ -606,7 +606,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Ridderkerk</field>
         <field name="zip">2986 VG</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/gerard.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/gerard.png"/>
     </record>
 
 
@@ -623,7 +623,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Deventer</field>
         <field name="zip">7412 WX</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/hans.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/hans.png"/>
     </record>
 
     <record id="test_user_gordon_heuckeroth" model="res.users">
@@ -639,7 +639,7 @@
         <field name="country_id" ref="base.nl"/>
         <field name="city">Rotterdam</field>
         <field name="zip">3072 HG</field>
-        <field name="image_1920" type="base64" file="/demo/static/description/gordong.png"/>
+        <field name="image_1920" type="base64" file="./demo/static/description/gordong.png"/>
 
     </record>
 
