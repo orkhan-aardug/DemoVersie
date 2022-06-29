@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$USER_HOME$/Downloads/odoo-15.0" />
     <content url="file://$MODULE_DIR$" />
+    <content url="file://$USER_HOME$/odoo-stubs-15.0" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
