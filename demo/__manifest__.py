@@ -8,7 +8,7 @@
     'category': 'Demo',
     'author': 'Aardug',
     'sequence': -100,
-    'summary': ' management system',
+    'summary': 'management system',
     'description': """Odoo demo""",
     'depends': ['mail', 'product', 'sale', 'sales_team', 'contacts', 'mrp', 'account', 'base_iban', 'base_vat',
                 'l10n_nl',
