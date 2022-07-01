@@ -14,11 +14,11 @@
         <!-- NEEDED -->
         <record id="test_product_ronde_tafel" model="product.product">
             <field name="name">Ronde Tafel</field>
-            <field name="purchase_ok" eval="False" />
-            <field name="detailed_type">product</field>
-            <field name="categ_id" ref="demo.new_productie_category"/>
-            <field name="image_1920" type="base64" file="/demo/static/description/ronde_tafel.png"/>
 
+            <field name="detailed_type">product</field>
+
+            <field name="image_1920" type="base64" file="/demo/static/description/ronde_tafel.png"/>
+            <field name="list_price">123.50</field>
 
         </record>
 
