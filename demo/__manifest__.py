@@ -4,7 +4,7 @@
 
 {
     'name': 'demo',
-    'version': '1.0.0',
+    'version': '15.1.0.0',
     'category': 'Demo',
     'author': 'Aardug',
     'sequence': -100,
@@ -26,10 +26,8 @@
                 ],
     'data': [
         'data/data.xml',
+        'data/data_products.xml',
+        'data/data_bills.xml',
     ],
-    'demo': [],
-    'application': True,
-    'auto_install': False,
-    'assets': {},
     'license': 'LGPL-3',
 }
